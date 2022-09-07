@@ -14,9 +14,9 @@ export default function Home() {
         rel="apple-touch-icon" />
         <title>Jason Loves Jill</title>
       </Head>
-      <h1 class={tw`text-center w-full text-[10vw] flex flex-col `}>
+      <h1 class={tw`sm:ml-[-2vw] center w-full text-[10vw] flex flex-col items-center justify-center sm:flex-row`}>
         <span>Jason</span>
-        <span class={tw`text-[15vw]`}>❤️</span>
+        <span class={tw`text-[20vw]`}>❤️</span>
         <span>Jill</span>
       </h1>
     </div>
