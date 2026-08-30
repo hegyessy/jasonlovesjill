@@ -7,8 +7,17 @@ export default define.page(function App({ Component }) {
         <meta charset="utf-8" />
         <meta
           name="viewport"
-          content="initial-scale=1,width=device-width, minimal-ui"
+          content="width=device-width, initial-scale=1, viewport-fit=cover"
         />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta
+          name="apple-mobile-web-app-status-bar-style"
+          content="black-translucent"
+        />
+        <meta name="apple-mobile-web-app-title" content="Jason + Jill" />
+        <meta name="theme-color" content="#ffe2e2" />
+        <link rel="manifest" href="/manifest.webmanifest" />
         <link
           href="/apple-touch-icon.png"
           sizes="180x180"

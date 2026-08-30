@@ -1,7 +1,16 @@
 @import "tailwindcss";
 
+html {
+  background-color: #ffe2e2;
+  overscroll-behavior: none;
+}
+
 body {
   touch-action: manipulation;
+}
+
+img {
+  -webkit-touch-callout: none;
 }
 
 .heart {
