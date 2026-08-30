@@ -2,7 +2,7 @@ import Hearts from "../islands/Hearts.tsx";
 
 export default function Home() {
   return (
-    <div class="bg-red-100 w-screen flex items-center justify-center overflow-hidden h-screen">
+    <div class="bg-red-100 w-screen flex items-center justify-center overflow-hidden h-screen absolute inset-0">
       <img
         src="/thisisus.png"
         alt="Jason loves Jill"
