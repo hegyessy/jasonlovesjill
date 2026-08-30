@@ -6,7 +6,7 @@ export default function Home() {
       <img
         src="/thisisus.png"
         alt="Jason loves Jill"
-        class="max-h-4/5 select-none"
+        class="max-h-4/5 select-none pointer-events-none"
       />
       <Hearts />
     </div>
